@@ -15,6 +15,10 @@ Spring Boot is like a **"pre-assembled" toolkit** for Java developers that handl
 
 For more information, see [Spring Boot Overview](https://spring.io/projects/spring-boot#overview).
 
+## Docker Compose Support in Spring Boot 3.1
+
+[Spring Boot 3.1](https://spring.io/blog/2023/06/21/docker-compose-support-in-spring-boot-3-1) introduced Docker Compose support, which automatically manages your service containers (like MySQL or Redis) the moment you run your Java application. Instead of manually running docker compose up, **Spring Boot detects your `compose.yaml` file, starts the required services, and automatically configures the connection details (like URLs and passwords) for you**. This creates a "no-config" development experience where the application and its dependencies spin up and shut down as a single, synchronized unit.
+
 ## Prerequisites
 
 To run the app, ensure that you have met the following requirements:
